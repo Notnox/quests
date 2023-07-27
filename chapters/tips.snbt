@@ -1,0 +1,649 @@
+{
+	id: "32AC7585758C60EA"
+	group: ""
+	order_index: 1
+	filename: "tips"
+	title: "Dicas"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.0d
+			y: -8.5d
+			width: 28.0d
+			height: 28.0d
+			rotation: 0.0d
+			image: "kubejs:textures/tips.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "davebuildingmod:textures/blocks/arrow_right_sign.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "davebuildingmod:textures/blocks/arrow_left_sign.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: -17.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "davebuildingmod:textures/blocks/arrow_down_sign.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -5.5d
+			y: -12.0d
+			subtitle: "Existem muitos recursos de localização. O motivo por trás disso é para você usar os novos trens da versão 1.18 :) As Trilhas de Trem foram tornadas DEZESSEIS VEZES mais baratas do que o normal, então suas aventuras na construção de trens são tão fáceis quanto podem ser!"
+			id: "2DF25740BF8AF0F2"
+			tasks: [{
+				id: "7BB8B3A8548C9213"
+				type: "item"
+				item: "create:track"
+			}]
+		}
+		{
+			title: "Farm de Ferro"
+			x: -6.5d
+			y: -11.0d
+			subtitle: "Este pacote exige um bom suprimento de ferro...."
+			id: "14FC19629B01ACFF"
+			tasks: [{
+				id: "26D4C20DB80ADEFD"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			title: "Guia de Depósitos de Minério"
+			x: -6.0d
+			y: -10.0d
+			subtitle: "Todos os minérios podem ser encontrados em todos os biomas, mas eles diferem em raridade e abundância dependendo do bioma. Em particular, cada minério tem um bioma onde é encontrado em grande quantidade, e então há um bioma secundário que tem altas taxas de geração de veios, mas depósitos muito pequenos (aproximadamente de 1k a 7k), por fim, há veios normais em todos os biomas do mundo superior que são muito raros. Você pode ver todas as informações sobre os biomas e os tamanhos máximos dos veios nas guias de receitas para a máquina de perfuração. O ouro é mais comum em biomas secos, embora também existam depósitos no Nether, mas esses veios são mais limitados. O ferro é encontrado mais comumente em Jungles e secundariamente em biomas raros, como a Flower Forest. O estanho, chumbo, níquel e zinco são encontrados da mesma forma que o ferro. O cobre é encontrado mais comumente em Montanhas e secundariamente em biomas raros. Por fim, a prata é mais comumente encontrada em Montanhas e secundariamente no End."
+			id: "51054C4D158084AD"
+			tasks: [{
+				id: "27EA85318341928B"
+				type: "item"
+				item: "createoreexcavation:drilling_machine"
+			}]
+		}
+		{
+			title: "Trens em todas as Dimensões!"
+			x: -4.5d
+			y: -13.5d
+			subtitle: "Clicar com o botão direito em um Bloco de Diamante com Isqueiro e Aço dará portais em todas as dimensões; como extensão, você pode fazer trens em todas as dimensões, basta colocar uma trilha no portal gerado."
+			id: "0C07D49BEDE78634"
+			tasks: [
+				{
+					id: "1F6BEB60E87ABAEE"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D25919C6D578832"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -8.0d
+			subtitle: "Este é um carregador de chunk de create, também funciona em dispositivos. Mas não simula randomticks, que é o que você precisa para o crescimento das culturas. Mas outra ferramenta permite o carregamento de chunk de randomticks, que é o FTBchunks force load. É mais ou menos necessário para completar este pacote."
+			id: "3147CC1F634EF8E7"
+			tasks: [{
+				id: "00D0B84159CDC1CE"
+				type: "item"
+				item: "createchunkloading:chunk_loader"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			id: "5296043AF72D58DD"
+			tasks: [{
+				id: "113D19B9D0E0D469"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			id: "7CE214F701140C6B"
+			tasks: [{
+				id: "4E581D58C0A5B113"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -14.0d
+			subtitle: "Encontre qualquer estrutura com o clique de um botão"
+			id: "39417A51292D3544"
+			tasks: [{
+				id: "004F74707B04D4E7"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			subtitle: "As Selas são craftáveis!"
+			id: "00A12D9476F67645"
+			tasks: [{
+				id: "65BF0B4D1A86B085"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
+		}
+		{
+			title: "Moinhos de CT"
+			x: 12.0d
+			y: -7.0d
+			subtitle: "Moinhos de vento só precisam de 1 Vela para funcionar! (assumindo que eu não baguncei as configurações)"
+			id: "6BE95A5BCF9527ED"
+			tasks: [
+				{
+					id: "5380AF445265BC22"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "4931615850FA47A1"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+		}
+		{
+			title: "Orestones agora são Renováveis!"
+			x: 13.0d
+			y: -7.0d
+			subtitle: "As Geodes Fundidas de Orestones agora aparecem em todo o mundo, encontre o Bloco de Geode nelas e clique com um item de redstone dust. Dessa forma, os orestones e seus recursos são totalmente automatizáveis!"
+			id: "520888735E13CA2E"
+			tasks: [{
+				id: "00B80DE0D3B744F1"
+				type: "item"
+				item: "create:veridium"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -12.0d
+			subtitle: "Após o Capítulo M1, você desbloqueará a Runic Table. Ela permite transmutar várias coisas em suas contrapartes, como queimadores vazios de blaze em queimadores de blaze e gotas de mobs em suas contrapartes super raras do reliquário."
+			id: "52EE3B7F60A5C0F4"
+			tasks: [{
+				id: "0D57135F3938BE15"
+				type: "item"
+				item: "kubejs:runic_tablet"
+			}]
+		}
+		{
+			title: "Filtragem de Itens no início do jogo!"
+			x: -6.5d
+			y: -13.0d
+			subtitle: "Locking Drawers e a conexão de um Funil de Andesito funcionam surpreendentemente bem como um método de filtragem de itens no início do jogo!"
+			id: "45D36D1DEB856A0F"
+			tasks: [
+				{
+					id: "486190264337B29E"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "2E5246C07F3C63B7"
+					type: "item"
+					title: "Qualquer #functionalstorage:drawer"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3A9F2053E280825B"
+					type: "item"
+					item: {
+						id: "functionalstorage:configuration_tool"
+						Count: 1b
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+				}
+				{
+					id: "3EB657895BA3DD31"
+					type: "item"
+					item: "create:brass_funnel"
+				}
+			]
+		}
+		{
+			title: "Empilhamento de itens antes do Bress!"
+			x: -7.5d
+			y: -13.5d
+			subtitle: "Você pode agrupar itens em pilhas usando Weighted Ejectors, simplesmente role com uma wrench em um Weighted Ejector para configurar a quantidade de pilhas desejada!"
+			id: "392207368024751B"
+			tasks: [{
+				id: "0558024E34F02416"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Colocar e quebrar facilmente. A Construction Wand é absolutamente op."
+			id: "39BEA048AB996A02"
+			tasks: [
+				{
+					id: "629DC4CD7863C1AC"
+					type: "item"
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+					}
+				}
+				{
+					id: "561DAE4418AE7671"
+					type: "item"
+					item: "constructionwand:core_destruction"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -8.0d
+			subtitle: "Tornará qualquer item indestrutível."
+			id: "071AE83CC302169D"
+			tasks: [{
+				id: "3A1D25CC549EE8DE"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Encantamento de Mineração em Veia"
+			x: -6.0d
+			y: -1.0d
+			id: "1F8010E246DBE7D2"
+			tasks: [{
+				id: "7322A96D72857116"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "veinmining:vein_mining"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -12.5d
+			subtitle: "Blaze Burners agora podem aceitar Líquidos se você der a eles um Straw! Ignora bolos de blaze."
+			id: "0403135BEBFF8693"
+			tasks: [
+				{
+					id: "39D15F9F818B5B8F"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+				{
+					id: "68B820E084B71AD4"
+					type: "item"
+					item: "createaddition:straw"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			id: "514DF30DE10444A1"
+			tasks: [{
+				id: "4FD18470D3FC9859"
+				type: "item"
+				item: "magicfeather:magicfeather"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			id: "2871D10E1E289B18"
+			tasks: [{
+				id: "062BA226461B1EB3"
+				type: "item"
+				item: {
+					id: "reliquary:alkahestry_tome"
+					Count: 1b
+					tag: {
+						Damage: 1001
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			subtitle: "Ainda não implementado"
+			id: "10F2426EC2ABA865"
+			tasks: [
+				{
+					id: "7707902B0A29DFA6"
+					type: "item"
+					item: {
+						id: "thermal:nuke_tnt"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "789B2DD5851C845C"
+					type: "item"
+					item: "thermal:nuke_grenade"
+				}
+			]
+		}
+		{
+			title: "Vidro à Prova de Wither"
+			x: -5.5d
+			y: -11.0d
+			subtitle: "Completely Indestructible by Withers"
+			id: "5CFBF9DB3C810E70"
+			tasks: [
+				{
+					id: "206D739289677E82"
+					type: "item"
+					item: "thermal:obsidian_glass"
+				}
+				{
+					id: "6396B2EE94394575"
+					type: "item"
+					item: "thermal:lumium_glass"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			id: "52E70CAD0E90E8E3"
+			tasks: [{
+				id: "07618CC7C276AE29"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+		}
+		{
+			title: "Completamente indestrutível pelos Wither."
+			x: -7.0d
+			y: -3.5d
+			id: "640704ED253016CA"
+			tasks: [
+				{
+					id: "74EBE0CFDE21BEE1"
+					type: "item"
+					item: "createaddition:modular_accumulator"
+				}
+				{
+					id: "773D82B45453C074"
+					type: "item"
+					item: "createaddition:portable_energy_interface"
+				}
+			]
+		}
+		{
+			title: "Energia Portátil? SIM POR FAVOR"
+			x: -6.5d
+			y: -14.0d
+			subtitle: "Colhendo Folhas com ESTILO"
+			id: "39726A3AB587CB01"
+			tasks: [
+				{
+					id: "0EF7E9094C85C84C"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+				{
+					id: "533B36B9933BDE54"
+					type: "item"
+					title: "Qualquer #minecraft:leaves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			subtitle: "Pode ser usado para cultivar peixes..."
+			id: "3D7B34D45116567D"
+			tasks: [{
+				id: "600FE95A2CB0913B"
+				type: "item"
+				item: "minecraft:wet_sponge"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			id: "5E6870E5C7A79754"
+			tasks: [{
+				id: "13AEBDA3DAE701F1"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -13.0d
+			subtitle: "Escaneia um chunk em busca de Andesito e Diorito"
+			id: "433CCF86EBF39A8E"
+			tasks: [{
+				id: "3D478FAFAF8DACFC"
+				type: "item"
+				item: "kubejs:alloy_radar"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.0d
+			subtitle: "Netherack agora é renovável!!!! WOOOO (Não ouse tentar automatizá-lo) (EU TORNEI ISSO O MAIS DOLOROSO POSSÍVEL PARA QUE NINGUÉM FAÇA)"
+			id: "6425BC0E551581F5"
+			tasks: [{
+				id: "4C2519536CDF599D"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -12.5d
+			subtitle: "Colete alguns, por favor?"
+			id: "223B1CB805849D44"
+			tasks: [
+				{
+					id: "6600862F7A08FD82"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal"
+				}
+				{
+					id: "3BF8D1BB098F29DB"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_block"
+				}
+			]
+		}
+		{
+			title: "Placas através de Bigornas"
+			x: 10.0d
+			y: -7.0d
+			subtitle: "Solte uma Bigorna em uma Lingote e, com certeza, ela será prensada em uma placa. (Com um pouco de perda)"
+			id: "2A80651B5135AB01"
+			tasks: [
+				{
+					id: "53B386709076D690"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "5BD24411D62BB59B"
+					type: "item"
+					item: "create:iron_sheet"
+				}
+			]
+			rewards: [{
+				id: "7135331C7BA72B0F"
+				type: "item"
+				item: "create:iron_sheet"
+				count: 2
+			}]
+		}
+		{
+			icon: "kubejs:fragment_of_patience"
+			x: 12.0d
+			y: -8.0d
+			id: "4C457CC907F4CAA5"
+			tasks: [{
+				id: "6F46BA932D39FE72"
+				type: "checkmark"
+				title: "Faça o Teste da Paciência."
+			}]
+			rewards: [{
+				id: "2EC22C98DF0C43CE"
+				type: "item"
+				item: "kubejs:fragment_of_patience"
+			}]
+		}
+		{
+			title: "As Dicas mais Importantes:"
+			x: -6.0d
+			y: -16.0d
+			id: "280B58649F0CB8C9"
+			tasks: [{
+				id: "468BB1C3DA5FEB88"
+				type: "item"
+				item: "davebuildingmod:alarm_sign"
+			}]
+		}
+		{
+			title: "Dicas Menos Importantes:"
+			x: 11.5d
+			y: -9.0d
+			id: "654993F745FC29F0"
+			tasks: [{
+				id: "638064ADFA699D9E"
+				type: "item"
+				item: "davebuildingmod:alarm_sign"
+			}]
+		}
+		{
+			title: "Dicas Variadas"
+			x: -6.0d
+			y: -5.0d
+			id: "3799508D7DECC323"
+			tasks: [{
+				id: "5FAD817B1557E963"
+				type: "item"
+				item: "davebuildingmod:alarm_sign"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			subtitle: "Gerará o bloco colocado abaixo dele."
+			id: "686971D4F5FC320E"
+			tasks: [{
+				id: "0D6C3F32723A2F16"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			title: "Pesquise por itens em Baús"
+			icon: "quark:warped_chest"
+			x: -6.0d
+			y: -15.0d
+			subtitle: "Passe o mouse sobre um item no JEI e pressione Y para mostrar todos os baús com esse item."
+			id: "1BDC8F965F8B7DA7"
+			tasks: [{
+				id: "0A0883A23A9D8436"
+				type: "checkmark"
+				title: "Passe o mouse sobre um item no JEI e pressione Y para mostrar todos os baús com esse item."
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			subtitle: "Crie Motores a Vapor com Pneumaticcraft!"
+			id: "41474C57E044994B"
+			tasks: [{
+				id: "63EC1E041F8BFE36"
+				type: "item"
+				item: "compressedcreativity:heater"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

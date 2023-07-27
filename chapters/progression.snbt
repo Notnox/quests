@@ -1,0 +1,367 @@
+{
+	id: "38790066AE0C96F0"
+	group: ""
+	order_index: 0
+	filename: "progression"
+	title: "Progressão"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.5d
+			y: 1.5d
+			width: 40.0d
+			height: 40.0d
+			rotation: 0.0d
+			image: "kubejs:textures/progression.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			width: 14.0d
+			height: 14.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Boa sorte!"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Quando as coisas parecem avassaladoras, saiba que você é capaz de superar esses obstáculos. Neste pacote, não são seus recursos que o limitam, mas sim sua vontade de pensar fora da caixa. Embora os primeiros capítulos possam parecer difíceis em termos de recursos, podemos garantir que após o início inicial, você não precisará de muitos recursos. Boa sorte, viajante!"
+			id: "3BAD2CEF1245F202"
+			tasks: [{
+				id: "3C638DEE93C407D4"
+				type: "checkmark"
+				title: "Que comece a jornada!"
+			}]
+			rewards: [
+				{
+					id: "1DB0D5BA24F93B0F"
+					type: "item"
+					item: "antiqueatlas:empty_antique_atlas"
+				}
+				{
+					id: "419427A795E296D0"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "veinmining:vein_mining"
+							}]
+						}
+					}
+				}
+				{
+					id: "0B776ED21D0AED56"
+					type: "item"
+					item: "kubejs:sushi"
+					count: 16
+				}
+				{
+					id: "567EAF9973FFE65F"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "26611519226B9A9C"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+			]
+		}
+		{
+			title: "Primeiro Capítulo de Tecnologia: Atraentes Alusões"
+			icon: "kubejs:andesite_machine"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Estes são Capítulos de Tecnologia! Aqui você expandirá suas capacidades tecnológicas por meio da Inovação!"
+			dependencies: ["3BAD2CEF1245F202"]
+			id: "6EFF8BCEBC2E2AF2"
+			tasks: [
+				{
+					id: "075CF9BE7A363B2D"
+					type: "item"
+					item: "kubejs:andesite_machine"
+				}
+				{
+					id: "69A69B5061736432"
+					type: "checkmark"
+					title: "Sim, quero fazer o próximo capítulo."
+				}
+			]
+		}
+		{
+			title: "O primeiro Capítulo de Magia: Fascínio Cristalino"
+			icon: "quark:violet_corundum"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Estes são os Capítulos de Magia. Aqui você deve encontrar soluções para a extrema estranheza das Receitas Arcanas. Se você superar as dificuldades e conquistar esses desafios, ferramentas incrivelmente poderosas serão suas."
+			dependencies: ["3BAD2CEF1245F202"]
+			id: "07D1ED74C8A30306"
+			tasks: [
+				{
+					id: "49D09317C4599073"
+					type: "item"
+					item: "kubejs:runic_tablet"
+				}
+				{
+					id: "7F9798CE766D6BB8"
+					type: "checkmark"
+					title: "Sim, vamos para o próximo capítulo"
+				}
+			]
+		}
+		{
+			title: "Capítulo Extra: A Era do Cobre"
+			icon: "kubejs:sealed_machine"
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			id: "3B25D99BFA2C928C"
+			tasks: [{
+				id: "69C2E51A9F5E986B"
+				type: "checkmark"
+				title: "Desbloquear o Capítulo!"
+			}]
+		}
+		{
+			title: "Expedições Extraterrestres"
+			icon: "kubejs:brass_machine"
+			x: 2.5d
+			y: -1.0d
+			subtitle: "Antes de entrar na era do Brass você não deve se apressar e avançar lentamente em sua infraestrutura, para que possa lidar com as novas demandas da era do Brass!"
+			dependencies: [
+				"6EFF8BCEBC2E2AF2"
+				"4F91815A21A69A27"
+			]
+			id: "3A10D0D5E8548C54"
+			tasks: [
+				{
+					id: "3B65AFBFCCD2CF77"
+					type: "item"
+					item: "kubejs:brass_machine"
+				}
+				{
+					id: "73BB42050BFC9FA6"
+					type: "checkmark"
+					title: "Quero mais capítulos!"
+				}
+			]
+		}
+		{
+			title: "Capítulo 2 Extra: Maquinaria Resistente"
+			icon: "kubejs:sturdy_machine"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Trens!"
+			dependencies: ["3A10D0D5E8548C54"]
+			dependency_requirement: "one_started"
+			id: "2E949A84C2E9B3C8"
+			tasks: [{
+				id: "73E5284067DB7466"
+				type: "checkmark"
+				title: "Sim, desbloqueie, por favor!"
+			}]
+		}
+		{
+			title: "Pandemônio do Processamento"
+			x: 5.5d
+			y: -1.0d
+			dependencies: [
+				"19232B8B77F86AF8"
+				"5226F9B2150E20FF"
+			]
+			id: "099F5D860FC50376"
+			tasks: [{
+				id: "06B2E74E9A4D86D9"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			title: "Herança dos Herbalistas"
+			icon: "ars_nouveau:as_gold_stone"
+			x: 2.5d
+			y: 1.0d
+			dependencies: [
+				"07D1ED74C8A30306"
+				"191F931436C093A8"
+			]
+			id: "10190AA2A7C13277"
+			tasks: [
+				{
+					id: "2F22340B7C506B32"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+				}
+				{
+					id: "2CEA253303F6DB06"
+					type: "checkmark"
+					title: "Podemos continuar!"
+				}
+			]
+		}
+		{
+			title:  "Criação Cromática"
+			icon: "kubejs:radiant_machine"
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Mal posso esperar para terminar este pacote! Dê-me mais capítulos!"
+			dependencies: [
+				"3A10D0D5E8548C54"
+				"1CF1A735F77415F2"
+			]
+			id: "19232B8B77F86AF8"
+			tasks: [
+				{
+					id: "551C5F3F6005F6FE"
+					type: "item"
+					item: "kubejs:radiant_machine"
+				}
+				{
+					id: "7148E1E85BDF49D9"
+					type: "checkmark"
+					title: "Dê-me demônios mais difíceis"
+				}
+			]
+		}
+		{
+			title: "A Era Pneumática"
+			icon: "kubejs:plastic_machine"
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["19232B8B77F86AF8"]
+			id: "5A8CA8146004CDE2"
+			tasks: [{
+				id: "5076BF5FA05B47C6"
+				type: "checkmark"
+				title: "Desbloquear a Era Pneumática!"
+			}]
+		}
+		{
+			title: "Caos Crônico"
+			icon: "forbidden_arcanus:arcane_gilded_darkstone"
+			x: 4.0d
+			y: 1.0d
+			dependencies: [
+				"10190AA2A7C13277"
+				"1E251A0792D8CC62"
+			]
+			id: "10F884D73B9DB540"
+			tasks: [
+				{
+					id: "40072B1C1C293840"
+					type: "checkmark"
+					title: "Desbloquear o capítulo final de Magia"
+				}
+				{
+					id: "06790D855864E027"
+					type: "item"
+					item: {
+						id: "tiab:time_in_a_bottle"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Iluminação Enigmática"
+			icon: {
+				id: "forbidden_arcanus:eternal_stella"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.5d
+			y: 1.0d
+			dependencies: [
+				"10F884D73B9DB540"
+				"43B996DFEAF1948A"
+			]
+			id: "1874AF18742915E4"
+			tasks: [{
+				id: "34CC89E7B5DB7605"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Alquimia Arcana"
+			x: 6.5d
+			y: 0.0d
+			dependencies: [
+				"7AB381389276D63C"
+				"099F5D860FC50376"
+				"1874AF18742915E4"
+			]
+			hide: false
+			id: "33B884E7D9E5A820"
+			tasks: [{
+				id: "591F00D721AAA163"
+				type: "dimension"
+				dimension: "cae:arcane"
+			}]
+		}
+		{
+			icon: "kubejs:time_machine"
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"10F884D73B9DB540"
+				"19232B8B77F86AF8"
+			]
+			id: "321593B0981F168B"
+			tasks: [{
+				id: "77DF7F1EC935C976"
+				type: "checkmark"
+				title: "Desbloquear o caminho para AE2 (Applied Energistics 2)"
+			}]
+		}
+		{
+			title: "Capítulo de Integração"
+			icon: "kubejs:integrational_machine"
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"3A10D0D5E8548C54"
+				"10190AA2A7C13277"
+			]
+			id: "1F401CB82AEBC9FE"
+			tasks: [{
+				id: "469E7DA40F9E39C3"
+				type: "checkmark"
+				title: "Desbloquear o Capítulo de Integração"
+			}]
+		}
+		{
+			title: "O Destino."
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["33B884E7D9E5A820"]
+			hide: true
+			id: "1C392A3E7ADA7109"
+			tasks: [{
+				id: "0729F370FA81512E"
+				type: "custom"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

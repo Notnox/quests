@@ -1,0 +1,58 @@
+{
+	id: "39BE274FBC94994D"
+	order_index: 1
+	title: "Todas as Tarefas"
+	icon: "quests:task"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Tarefa de Mineração"
+			icon: "quests:mining_task"
+			command: "/loot give @p loot quests:mining_task"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Tarefa de Agricultura"
+			icon: "quests:farming_task"
+			command: "/loot give @p loot quests:farming_task"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Tarefa de Coleta"
+			icon: "quests:collecting_task"
+			command: "/loot give @p loot quests:collecting_task"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Tarefa de Desmatamento"
+			icon: "quests:deforesting_task"
+			command: "/loot give @p loot quests:deforesting_task"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Tarefa de Pesca"
+			icon: "quests:fishing_task"
+			command: "/loot give @p loot quests:fishing_task"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Tarefa de Caça"
+			icon: "quests:hunting_task"
+			command: "/loot give @p loot quests:hunting_task"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Tarefa de Abate"
+			icon: "quests:slaying_task"
+			command: "/loot give @p loot quests:slaying_task"
+			player_command: false
+			type: "command"
+		}
+	]
+}
