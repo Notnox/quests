@@ -65,7 +65,7 @@
 			y: -2.0d
 			shape: "diamond"
 			subtitle: "Começando a ganhar dinheiro"
-			description: ["Tasks are great! Completing them can help you make tons of money! \\n\\nBut be aware: They usually cost a few Silver Coins and you never know what task you may be given! \\nThis one is for free to get you started."]
+			description: ["Tarefas são ótimas! Completá-las pode ajudar você a ganhar toneladas de dinheiro! \\n\\nMas fique atento: geralmente elas custam algumas Moedas de Prata e você nunca sabe que tarefa pode receber! \\nEssa é de graça para você começar."]
 			optional: true
 			id: "3580485A369D2795"
 			tasks: [{

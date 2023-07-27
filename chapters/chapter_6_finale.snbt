@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 10
 	filename: "chapter_6_finale"
-	title: "Capítulo X: O Fim."
+	title: "Chapter X: The End."
 	icon: "supplementaries:globe_sepia"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -132,11 +132,11 @@
 			}]
 		}
 		{
-			title: "Trens ao longo do Arcano"
+			title: "Trains all the way through the Arcane"
 			x: 0.0d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "Cada bioma tem essências para extrair, no entanto, todas as outras essências, exceto a essência-fonte, requerem outra essência para serem cultivadas. Portanto, você terá que fazer logística por todo o mundo."
+			subtitle: "Each biome has essences to extract, however every other than the source essence requires another essence to cultivate it. You'll need an extensive logistics network to handle them."
 			dependencies: ["33B884E7D9E5A820"]
 			hide: true
 			id: "12D4F65D7254E7E2"
@@ -159,7 +159,7 @@
 			}]
 		}
 		{
-			title: "Esmague o Whirlisprig"
+			title: "Crush the Whirlisprig"
 			x: 10.0d
 			y: 13.5d
 			dependencies: ["2FA09AA8196F2027"]
@@ -171,7 +171,7 @@
 			}]
 		}
 		{
-			title: "O Triturador de Whirlisprig"
+			title: "The Whirlisprig Crusher"
 			x: 10.0d
 			y: 12.5d
 			shape: "square"
@@ -399,7 +399,7 @@
 			}]
 		}
 		{
-			title: "O Egginator"
+			title: "The Egginator"
 			x: -10.0d
 			y: 12.5d
 			shape: "square"
@@ -473,7 +473,7 @@
 		{
 			x: -10.0d
 			y: 17.5d
-			subtitle: "Clique com o botão esquerdo no bloco de omlett com uma faca para obter Arcane Omelett Sheets"
+			subtitle: "Left click the omelett block with a knife to obtain Arcane Omelett Sheets"
 			dependencies: ["6633BC006C8A7C8B"]
 			id: "792896D6601E25B2"
 			tasks: [{
@@ -514,7 +514,7 @@
 			}]
 		}
 		{
-			title: "Pesca Tática de Esponjas"
+			title: "Tactical Sponge Fishing"
 			x: 0.0d
 			y: 12.5d
 			shape: "square"
@@ -699,7 +699,7 @@
 			}]
 		}
 		{
-			title: "Não estrague esta linha de missões no modo criativo. Obrigado :D"
+			title: "Dont spoil yourself this questline in creative. Thanks :D"
 			x: 0.0d
 			y: 3.0d
 			dependencies: ["33B884E7D9E5A820"]
@@ -713,7 +713,7 @@
 			}]
 		}
 		{
-			title: "Eu pensei que este capítulo deveria ser gelado?"
+			title: "I thought this was supposed to be an icy chapter?"
 			x: -5.0d
 			y: 12.5d
 			shape: "square"
@@ -732,7 +732,7 @@
 		{
 			x: -5.0d
 			y: 13.5d
-			subtitle: "Explodir Stone com Inferno TNT concederá magma blocks"
+			subtitle: "Exploding stone with Inferno TNT will grant magma blocks"
 			dependencies: ["5020FCDDC95BB62A"]
 			id: "477B115121FF45A2"
 			tasks: [{
@@ -755,7 +755,7 @@
 		{
 			x: -5.0d
 			y: 15.5d
-			subtitle: "Explodir Magma com Glacial TNT concederá Blue Ice. Aviso: se estiver muito perto de sua geradora de pedra, a lava se transformará em obsidiana"
+			subtitle: "Exploding magma with Glacial TNT will grant Blue Ice. Be warned, having this too close to your cobble gen will transmute the lava to obsidian"
 			dependencies: ["476D9B8E02B0331E"]
 			id: "33A1044328EB0748"
 			tasks: [{
@@ -822,7 +822,7 @@
 			x: 5.0d
 			y: 12.5d
 			shape: "square"
-			subtitle: "Clique com o botão direito no Source Time Block para obter mudas."
+			subtitle: "Right click the Source Time Block for saplings."
 			dependencies: [
 				"33B884E7D9E5A820"
 				"2022E1E6F13CCFCB"
@@ -883,7 +883,7 @@
 		{
 			x: 3.5d
 			y: 15.5d
-			subtitle: "Despeje o Cascading Juice em Cascading Saplings *no mundo, despeje acima do bloco de mudas original*"
+			subtitle: "Spout Cascading Juice onto placed Cascading Saplings"
 			dependencies: [
 				"20CD12C610E188C3"
 				"6AE45DA328059B1C"
@@ -898,7 +898,7 @@
 		{
 			x: 4.5d
 			y: 16.5d
-			subtitle: "Despeje o Flourishing Juice em Flourishing Saplings *no mundo, despeje acima do bloco de mudas original*"
+			subtitle: "Spout Flourishing Juice onto placed Flourishing Saplings"
 			dependencies: [
 				"5DDD9C63929E9186"
 				"72A7613CFB680DD1"
@@ -913,7 +913,7 @@
 		{
 			x: 5.5d
 			y: 16.5d
-			subtitle: "Despeje o Vexing Juice em Vexing Saplings *no mundo, despeje acima do bloco de mudas original*"
+			subtitle: "Spout Vexing Juice onto placed Vexing Saplings"
 			dependencies: [
 				"51D0E3FF82128F07"
 				"7D240D7B4265CD67"
@@ -928,7 +928,7 @@
 		{
 			x: 6.5d
 			y: 15.5d
-			subtitle: "Despeje o Blazing Juice em Blazing Saplings *no mundo, despeje acima do bloco de mudas original*"
+			subtitle: "Spout Blazing Juice onto placed Blazing Saplings"
 			dependencies: [
 				"5D6942F4AF46788C"
 				"51E9C074E51C08A3"
@@ -1069,7 +1069,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "You somehow have to fill the Source Crystal without damaging its structure. maybe entangled blocks help"
+			subtitle: "Você precisa preencher o Source Crystal  sem danificar sua estrutura. Talvez entangled blocks possam ajudar?"
 			dependencies: ["33B884E7D9E5A820"]
 			hide: true
 			id: "5EEB1B8FCD2C1830"

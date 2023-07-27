@@ -188,7 +188,7 @@
 			y: 6.5d
 			shape: "square"
 			subtitle: "Extrair Resina de Árvores, usando Arboreal Extractors."
-			dependencies: ["3B25D99BFA2C928C"]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "146F8C2D929D7A9E"
 			tasks: [{
@@ -381,7 +381,7 @@
 			title: "Posso lhe interessar por uma rota opcional para produção dobrada?"
 			x: 1.0d
 			y: 7.5d
-			dependencies: ["3B25D99BFA2C928C"]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "4FDF0A226DCE7DF3"
 			tasks: [{
@@ -486,7 +486,7 @@
 			x: -4.5d
 			y: 8.0d
 			shape: "diamond"
-			dependencies: ["3B25D99BFA2C928C"]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "5561DB673DBC0A77"
 			tasks: [{
@@ -546,7 +546,7 @@
 			title: "Fazendo Ligas através do Tinkers, sem blazes necessários!"
 			x: 5.0d
 			y: 5.5d
-			dependencies: ["74A44C35A73EB298"]
+			dependencies: ["3BAD2CEF1245F202"]
 			id: "6EE3AFA0160D976A"
 			tasks: [{
 				id: "746941FD390384A0"
@@ -559,7 +559,7 @@
 			x: 6.0d
 			y: 5.5d
 			subtitle: "Requer latão para criar a Runic Tablet através do Capítulo m1!"
-			dependencies: ["74A44C35A73EB298"]
+			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "03B32FBE53374954"
 			tasks: [{
@@ -890,7 +890,7 @@
 			icon: "minecraft:light"
 			x: -2.5d
 			y: -2.0d
-			subtitle: Muda não cresce: Verifique o nível de luz e, se houver blocos ao redor da muda em um espaço 5x15x5. Qualquer bloco não natural, como pedra ou uma máquina, impedirá o crescimento da muda!"
+			subtitle: "Muda não cresce: Verifique o nível de luz e, se houver blocos ao redor da muda em um espaço 5x15x5. Qualquer bloco não natural, como pedra ou uma máquina, impedirá o crescimento da muda!"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "54879E4FF6671EFD"

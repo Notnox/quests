@@ -156,7 +156,7 @@
 			x: -0.5d
 			y: 8.0d
 			subtitle: "Ou faça uma farm de lava. Ou colete-a do Nether. De qualquer forma, isso significa obter uma forma de lava infinita! Sugiro ir para o Nether e usar hose pulleys!"
-			dependencies: ["2E949A84C2E9B3C8"]
+			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "53F4A32746B719F2"
 			tasks: [
@@ -327,7 +327,7 @@
 			y: 6.0d
 			shape: "octagon"
 			subtitle: "Você pode esmagar ou moer obsidiana para obter Obsidiana em Pó, com uma chance de obter 2 a cada vez. Você pode reprocessar 1 dos pós usando fundição de volta em Obsidiana e usá-la novamente no processo!"
-			dependencies: ["2E949A84C2E9B3C8"]
+			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "1377A2D928C6A05A"
 			tasks: [{
@@ -634,7 +634,7 @@
 			x: -3.5d
 			y: 6.0d
 			shape: "diamond"
-			dependencies: ["1F401CB82AEBC9FE"]
+			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "729FE7549853385E"
 			tasks: [{
