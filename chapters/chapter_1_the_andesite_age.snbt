@@ -281,7 +281,7 @@
 			x: 1.0d
 			y: 10.0d
 			subtitle: "Dobra a produção."
-			description: ["WOW!!! theres ponder integration for the menril bucket!! (if youre having issues check this)"]
+			description: ["WOW!!! há integração ponderada para o balde menril!! (se você estiver tendo problemas, verifique isso)"]
 			dependencies: [
 				"162780AD2FB145CB"
 				"1C3021BFBCB35C4C"

@@ -349,7 +349,7 @@
 			x: 2.0d
 			y: -7.5d
 			subtitle: "Configure uma ligação de trem para depósitos de Crude Oil em todo o mundo."
-			description: ["Or set up a 10k source in your base"]
+			description: ["Ou configure uma fonte de 10k na sua base"]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "68A5356444030698"

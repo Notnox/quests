@@ -3681,11 +3681,11 @@
 			tasks: [{
 				id: "76F40A1F0A7371B3"
 				type: "checkmark"
-				title: "yes 100% the modpack please."
+				title: "sim 100% do modpack porfavor."
 			}]
 		}
 		{
-			title: "Buying from Amadron"
+			title: "Comprando na Amadron"
 			icon: {
 				id: "pneumaticcraft:amadron_tablet"
 				Count: 1b
@@ -3695,8 +3695,8 @@
 			}
 			x: 1.5d
 			y: 2.0d
-			subtitle: "All of the Trades are also in Amadron!"
-			description: ["Pressure-Limited Amadron Subscription"]
+			subtitle: "Todos os negócios também estão em Amadron!"
+			description: ["Assinatura Amadron limitada por pressão"]
 			id: "326AC4EEE9E97B3A"
 			tasks: [{
 				id: "523E0F5C88578A7F"
