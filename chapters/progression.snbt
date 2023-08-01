@@ -229,7 +229,7 @@
 			]
 		}
 		{
-			title:  "Criação Cromática"
+			title: "Criação Cromática"
 			icon: "kubejs:radiant_machine"
 			x: 4.0d
 			y: -1.0d

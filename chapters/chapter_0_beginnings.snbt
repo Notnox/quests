@@ -36,7 +36,7 @@
 	quests: [
 		{
 			x: 1.5d
-			y: -0.5d
+			y: 0.5d
 			subtitle: "Você sabe como quebrar árvores, certo? Antes de se envolver demais com todos os mods, se você não tem certeza do que está fazendo, jogue um pouco de Minecraft. Construa uma casa, faça uma fazenda, faça o básico."
 			id: "2F63FB9E8EAC18BD"
 			tasks: [{
@@ -62,7 +62,7 @@
 			title: "Sua primeira tarefa"
 			icon: "trade:deforesting_task_import"
 			x: 3.0d
-			y: -2.0d
+			y: -1.0d
 			shape: "diamond"
 			subtitle: "Começando a ganhar dinheiro"
 			description: ["Tarefas são ótimas! Completá-las pode ajudar você a ganhar toneladas de dinheiro! \\n\\nMas fique atento: geralmente elas custam algumas Moedas de Prata e você nunca sabe que tarefa pode receber! \\nEssa é de graça para você começar."]
@@ -73,18 +73,26 @@
 				type: "checkmark"
 				title: "Eu entendo"
 			}]
-			rewards: [{
-				id: "300DF14CB8C12731"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 4160806329156671821L
-			}]
+			rewards: [
+				{
+					id: "300DF14CB8C12731"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4160806329156671821L
+				}
+				{
+					id: "637C63C4CACDDDA1"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4160806329156671821L
+				}
+			]
 		}
 		{
 			title: "Moagem de itens, útil para várias coisas."
-			x: -3.0d
-			y: 0.5d
-			dependencies: ["59386F705AAD3CFF"]
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["69C0AE6714182D7F"]
 			id: "6EC5AFB16BA0E63B"
 			tasks: [{
 				id: "1F7C1E2996B4EE70"
@@ -94,9 +102,9 @@
 		}
 		{
 			title: "Fundição OP, defumação e lavagem"
-			x: -3.0d
-			y: -1.5d
-			dependencies: ["59386F705AAD3CFF"]
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["69C0AE6714182D7F"]
 			id: "6C385B4921836314"
 			tasks: [{
 				id: "2E24A52D1049497C"
@@ -106,10 +114,10 @@
 		}
 		{
 			title: "Algumas máquinas de SU"
-			x: -1.5d
-			y: -0.5d
+			x: -3.0d
+			y: -4.5d
 			subtitle: "A energia tem que vir de algum lugar."
-			dependencies: ["438CB39142A72E71"]
+			dependencies: ["6BBE4CCFE07312A9"]
 			id: "59386F705AAD3CFF"
 			tasks: [
 				{
@@ -118,14 +126,19 @@
 					item: "create:water_wheel"
 				}
 				{
-					id: "156C839B96824739"
+					id: "314C226FD196205E"
+					type: "item"
+					item: "create:large_water_wheel"
+				}
+				{
+					id: "1A0FFD52A4045161"
 					type: "item"
 					item: "create:hand_crank"
 				}
 			]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: -3.5d
 			subtitle: "Um pouco de cobre."
 			dependencies: ["4DCF01FE026F9FE5"]
@@ -137,8 +150,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -3.5d
 			subtitle: "Você pode fazer Andesite Alloy com ele."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "4D32217601DA01D6"
@@ -149,8 +162,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.5d
+			x: 2.5d
+			y: -4.5d
 			subtitle: "Muito ferro."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "769ACE88C21CA4F9"
@@ -161,8 +174,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
+			x: 3.0d
+			y: -2.5d
 			subtitle: "Um pouco de zinco."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "21DF66C5B03C191D"
@@ -175,7 +188,7 @@
 		{
 			title: "O que são esses mods?! Estou com medo!!"
 			x: 3.5d
-			y: -0.5d
+			y: 0.5d
 			subtitle: "Aqui está uma lista de alguns mods que você pode nunca ter encontrado antes e está completamente confuso sobre eles."
 			dependencies: ["2F63FB9E8EAC18BD"]
 			id: "10DADBB2E6B7B7B5"
@@ -188,8 +201,13 @@
 		{
 			icon: "ars_nouveau:creative_spell_book"
 			x: 4.5d
-			y: -1.5d
-			subtitle: "Ars Nouveau é um mod dedicado à magia moderna, apresentando feitiços e familiares. No entanto, é importante observar que este mod só se tornará relevante nas etapas posteriores do pacote, e você não precisa entender a fundo suas mecânicas. Ele tem algumas plantas úteis, como sourceberries e mageblooms, você vai descobrir o que elas fazem mais tarde :)"
+			y: -0.5d
+			subtitle: "Um mob baseado em habilidades mágicas."
+			description: [
+				"Ars Nouveau é um mod dedicado à magia moderna, apresentando feitiços e familiares.\\n"
+				"No entanto, é importante observar que este mod só se tornará relevante nas etapas posteriores do pacote, e você não precisa entender a fundo suas mecânicas.\\n"
+				"Ele tem algumas plantas úteis para a progressão, como sourceberries e mageblooms.\\nVocê vai descobrir o que elas fazem mais tarde :)"
+			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "0F7ADBD455574DA8"
 			tasks: [{
@@ -201,8 +219,9 @@
 		{
 			icon: "pneumaticcraft:thermopneumatic_processing_plant"
 			x: 4.5d
-			y: 0.5d
-			subtitle: "Neste mod focado em tecnologia centrado em pressão, as mecânicas giram inicialmente em torno da geração de energia e seu fornecimento para várias máquinas. Embora a importância deste mod se torne aparente em estágios posteriores, é importante observar que os capítulos iniciais não envolvem mecânicas excessivamente complexas além da produção e distribuição de energia. Portanto, não há necessidade de se preocupar com as intrincadas mecânicas do mod durante os dois primeiros capítulos."
+			y: 1.5d
+			subtitle: "Tecnologia impulsionada por pressão"
+			description: ["Pneumaticcraft se concentra na geração e utilização de pressão.\\n\\nA importância do mod ficará mais evidente nas fases posteriores, mas você não precisa se preocupar com isso nos dois primeiros capítulos.\\n\\n\\nQuando você começar a trabalhar com o mod, há três coisas que você deve lembrar:\\n\\n1. Não deixe que suas máquinas atinjam uma pressão muito alta se estiverem sem um upgrade de segurança, ou elas podem explodir.\\n\\n2. Não deixe pontas abertas em seus tubos de pressão, caso contrário, a pressão será perdida em vez de se acumular.\\n\\n3. Blocos que não estiverem cercados por outros serão resfriados pela temperatura do ar ao seu redor."]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "520425F3AFA5599F"
 			tasks: [{
@@ -210,12 +229,21 @@
 				type: "checkmark"
 				title: "Pneumaticcraft"
 			}]
+			rewards: [{
+				id: "18FDA15F78E05D25"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
 		}
 		{
 			icon: "kubejs:integrational_mechanism"
 			x: 5.5d
-			y: -1.5d
-			subtitle: "KubeJS é um mod que melhora significativamente o pacote de mods, adicionando inúmeros itens personalizados, interações únicas e peculiaridades intrigantes. Como uma utilidade para o pacote de mods, ele simplifica muito o processo de desenvolvimento. Se você encontrar um item atribuído ao KubeJS, é provável que seja crucial para a progressão dentro do pacote de mods."
+			y: -0.5d
+			subtitle: "A cola que torna este pacote possível"
+			description: [
+				"KubeJS é um mod que simplifica significativamente o processo de criação de um pacote de modificações, permitindo que os criadores adicionem itens personalizados e interações únicas sem a necessidade de um mod completo.\\n"
+				"Se você encontrar um item atribuído ao KubeJS, é provável que seja fundamental para a progressão dos pacotes."
+			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "34312A4E0AFAD769"
 			tasks: [{
@@ -227,8 +255,15 @@
 		{
 			icon: "cae:skystone_catalyst"
 			x: 5.5d
-			y: 0.5d
-			subtitle: "Arcane Engineering é o mod principal deste pacote de mods, introduzindo conteúdo adicional para o final do jogo (o que não é relevante no momento). O mod apresenta blocos personalizados para automatizar Skystone e Create Orestones, fornecendo novas maneiras de interagir com esses materiais. Além disso, o mod altera as mecânicas em torno dos AE2 Meteorites."
+			y: 1.5d
+			subtitle: "Ou, em resumo, CAE."
+			description: [
+				"Create Arcane Engineering é o nome do mod principal deste modpack"
+				""
+				"O mod apresenta blocos personalizados para automatizar Skystone e Create Orestones."
+				""
+				"Parte do seu conteúdo só se torna relevante no final do modpack."
+			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "4BB71BE656192C7F"
 			tasks: [{
@@ -239,7 +274,7 @@
 		}
 		{
 			x: 1.5d
-			y: -4.5d
+			y: -5.0d
 			subtitle: "O Capítulo 1 requer que você cultive árvores Menril."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "20B2A8D54DD091A1"
@@ -250,8 +285,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -5.5d
+			x: 0.5d
+			y: -4.5d
 			subtitle: "Você pode fazer Andesite Alloy com ele."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "227004D221260FC2"
@@ -263,7 +298,7 @@
 		}
 		{
 			x: 1.5d
-			y: 1.5d
+			y: 2.5d
 			subtitle: "Aqui estão os itens de que você precisará para começar, e, uma vez que começar, não há volta! 12121!!"
 			dependencies: ["2F63FB9E8EAC18BD"]
 			id: "749112B711CAB183"
@@ -274,8 +309,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.5d
 			dependencies: ["2F63FB9E8EAC18BD"]
 			id: "438CB39142A72E71"
 			tasks: [{
@@ -287,8 +322,13 @@
 		{
 			icon: "minecraft:chorus_fruit"
 			x: 6.5d
-			y: 0.5d
-			subtitle: "Um mod de utilidade para desenvolvedores de modpacks que fornece receitas no mundo do jogo. Como colocar itens em fluidos, etc. Nada com que você precise se preocupar."
+			y: 1.5d
+			subtitle: "Maior utilidade de receitas"
+			description: [
+				"Um mod de utilidade para desenvolvedores de modpacks que fornece receitas no mundo, como soltar itens em fluidos, entre outras coisas."
+				""				
+				"Nada com que você precise se preocupar."
+			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "03A3E838913EDD49"
 			tasks: [{
@@ -306,8 +346,15 @@
 				}
 			}
 			x: 6.5d
-			y: -1.5d
-			subtitle: "Tinker's Construct é um mod de tecnologia que gira em torno de fundições. Ele oferece uma característica única que permite derreter uma variedade de itens e até entidades, proporcionando uma maneira catártica de derreter suas tristezas. Este mod ganha importância no Capítulo 2, tornando-se digno de exploração. Além disso, Tinker's Construct é focado principalmente na criação de ferramentas altamente úteis usando uma seleção diversificada de materiais. Com o Tinker's Construct, você pode criar ferramentas excepcionalmente poderosas para ajudá-lo em suas aventuras!"
+			y: -0.5d
+			subtitle: "Fabricação de ferramentas e duplicação de minérios"
+			description: [
+				"Tinker's Construct é um mod de ferramentas/equipamentos que gira em torno de fundições e metais líquidos.\\n"
+				"Ele permite que você derreta uma variedade de itens e até mesmo entidades em líquidos. \\n"
+				"Tinkers' Construct é principalmente focado na criação de ferramentas altamente úteis ao combinar uma seleção diversificada de materiais.\\n"
+				"Ele também permite que você duplique minérios derretendo sua forma bruta.\\n"
+				"Este mod ganha importância no Capítulo 2, tornando-o digno de ser explorado."
+			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "4D411D9BCE1D33F2"
 			tasks: [{
@@ -319,8 +366,15 @@
 		{
 			icon: "integrateddynamics:logic_programmer"
 			x: 7.5d
-			y: -1.5d
-			subtitle: "Integrated Dynamics é um mod mágico-tecnológico que se concentra principalmente em lógica e oferece uma abordagem altamente modular para a programação. No entanto, não é necessário se preocupar em se envolver em empreendimentos de programação complexa neste pacote de mods. Neste modpack específico, o Integrated Dynamics é usado apenas por sua funcionalidade de Árvores, então você não precisará se envolver em tarefas de programação. Também vale mencionar que o Integrated Dynamics fornece uma maneira de armazenamento semelhante ao AE2."
+			y: -0.5d
+			subtitle: "Uma solução para problemas que não precisavam de solução"
+			description: [
+				"Integrated Dynamics é um mod de magia-tecnológica que se concentra principalmente em lógica e oferece uma abordagem altamente modular para a programação."
+				""
+				"Não há necessidade de se preocupar com as capacidades complexas de programação dele neste modpack, porém. "
+				""
+				"Aqui, o Integrated Dynamics é principalmente usado por suas Árvores e fornece uma solução de armazenamento antes de você desbloquear o AE2 (Applied Energistics 2)."
+			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "74296D4CEDEA44AA"
 			tasks: [{
@@ -336,8 +390,16 @@
 				tag: { }
 			}
 			x: 7.5d
-			y: 0.5d
-			subtitle: "Forbidden Arcanus é um mod mágico que gira em torno de uma ampla variedade de itens relacionados à magia, cada um possuindo características e encantamentos únicos. Embora não seja necessário se aprofundar nas complexidades deste mod no momento, ele se tornará mais relevante à medida que você avança no jogo. Fique tranquilo, nós forneceremos explicações abrangentes para as mecânicas e recursos quando eles entrarem em jogo."
+			y: 1.5d
+			subtitle: "Itens interessantes utilizados na progressão"
+			description: [
+				"Forbidden and Arcanus é um mod mágico que gira em torno de uma ampla variedade de itens relacionados à magia, cada um possuindo suas próprias peculiaridades únicas."
+				""
+				"Sua característica mais complicada é um multibloco chamado de \"Hephaestus Forge\". "
+				"Ele se tornará relevante à medida que você avançar mais no jogo. "
+				""
+				"Pode ficar tranquilo que forneceremos explicações abrangentes das mecânicas e recursos quando eles entrarem em jogo."
+			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "6FC749E2772DFD45"
 			tasks: [{
@@ -348,9 +410,9 @@
 		}
 		{
 			title: "Corte Fácil de Árvores"
-			x: -2.5d
-			y: -0.5d
-			dependencies: ["59386F705AAD3CFF"]
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["69C0AE6714182D7F"]
 			id: "2E9BC6F50E8EAA67"
 			tasks: [{
 				id: "39DF16CAF546859B"
@@ -359,9 +421,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -2.5d
-			dependencies: ["59386F705AAD3CFF"]
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["69C0AE6714182D7F"]
 			id: "3109A6F2EA23F755"
 			tasks: [{
 				id: "07AD9B6C6DE070BC"
@@ -371,9 +433,9 @@
 		}
 		{
 			title: "Duplicando as taxas de Andesite Alloy."
-			x: -3.5d
-			y: 1.5d
-			dependencies: ["59386F705AAD3CFF"]
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["69C0AE6714182D7F"]
 			id: "7B1516AB858E84A1"
 			tasks: [{
 				id: "580C71401BD4E729"
@@ -382,8 +444,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.5d
+			x: 0.0d
+			y: -2.5d
 			subtitle: "Você pode fazer Andesite Alloy com ele."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "02EE7F0461B0DFBF"
@@ -395,7 +457,7 @@
 		}
 		{
 			x: 1.0d
-			y: 2.5d
+			y: 3.5d
 			dependencies: ["749112B711CAB183"]
 			id: "3F2F651C5B2E8758"
 			tasks: [{
@@ -406,7 +468,7 @@
 		}
 		{
 			x: 0.0d
-			y: 2.5d
+			y: 3.5d
 			dependencies: ["749112B711CAB183"]
 			id: "16C84D39BB2CA23B"
 			tasks: [{
@@ -424,7 +486,7 @@
 		}
 		{
 			x: 3.0d
-			y: 2.5d
+			y: 3.5d
 			dependencies: ["749112B711CAB183"]
 			id: "159959902CC20D5F"
 			tasks: [{
@@ -435,8 +497,9 @@
 		}
 		{
 			x: 2.0d
-			y: 2.5d
-			subtitle: "Como vou conseguir latão!? Bem, no Capítulo 1 haverá um tutorial :)"
+			y: 3.5d
+			subtitle: "Como vou conseguir latão!?"
+			description: ["No capítulo 1 haverá um tutorial :)"]
 			dependencies: ["749112B711CAB183"]
 			id: "17A07FB16A28912B"
 			tasks: [{
@@ -446,18 +509,112 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.5d
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Resultados melhores a partir da mistura!"
 			dependencies: [
 				"4D32217601DA01D6"
 				"02EE7F0461B0DFBF"
 				"227004D221260FC2"
 			]
+			dependency_requirement: "one_completed"
 			id: "6BBE4CCFE07312A9"
 			tasks: [{
 				id: "1CFC5555401D0935"
 				type: "item"
 				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "226094148D432E4A"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 24
+			}]
+		}
+		{
+			title: "A Lootbox"
+			icon: {
+				id: "kubejs:lootbag_create_andesite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -1.5d
+			description: [
+				"Este pacote frequentemente recompensa você por completar uma missão."
+				""
+				"As recompensas vêm na forma de Lootbags que podem ser abertas clicando com o botão direito."
+				""
+				"As Lootbags também podem ser encantadas com Fortuna para um grande aumento no saque."
+			]
+			dependencies: ["69C0AE6714182D7F"]
+			id: "196FA47058E902CB"
+			tasks: [{
+				id: "276E7721997ED799"
+				type: "checkmark"
+				title: "Me dê um pouco de saque!"
+			}]
+			rewards: [{
+				id: "10A9565D6D029AC9"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_create_andesite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: [
+				"Esses mecanismos são apenas improvisados!"
+				""
+				"Você não poderá melhorá-los para latão!"
+			]
+			dependencies: [
+				"438CB39142A72E71"
+				"6BBE4CCFE07312A9"
+			]
+			id: "3D141A6E5FFFA073"
+			tasks: [{
+				id: "2C0F62720CBB555B"
+				type: "item"
+				item: "kubejs:makeshift_kinetic_mechanism"
+			}]
+		}
+		{
+			title: "Sua primeira máquina"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "Muitas outras virão"
+			dependencies: ["3D141A6E5FFFA073"]
+			id: "69C0AE6714182D7F"
+			tasks: [{
+				id: "78342DA7ED9D039D"
+				type: "item"
+				item: "kubejs:andesite_machine"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Uma maneira fácil de encontrar recursos para Andesite Alloy"
+			description: [
+				"O Alloy Scanner procura por andesito e diorito em um pedaço (chunk) e relata suas coordenadas para você."
+				""
+				"Mas esteja ciente: O scanner fornecerá a posição mais baixa em que os encontrou."
+				"Procurar manualmente pode permitir que você os encontre mais rapidamente."
+			]
+			id: "7619CD089994659A"
+			tasks: [{
+				id: "3C549513F034D725"
+				type: "item"
+				item: "kubejs:alloy_radar"
 			}]
 		}
 	]

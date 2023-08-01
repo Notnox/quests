@@ -623,7 +623,7 @@
 		{
 			title: "Pesquise por itens em Baús"
 			icon: "quark:warped_chest"
-			x: -6.0d
+			x: -6.5d
 			y: -15.0d
 			subtitle: "Passe o mouse sobre um item no JEI e pressione Y para mostrar todos os baús com esse item."
 			id: "1BDC8F965F8B7DA7"
@@ -643,6 +643,33 @@
 				type: "item"
 				item: "compressedcreativity:heater"
 			}]
+		}
+		{
+			icon: "create:item_vault"
+			x: -5.5d
+			y: -15.0d
+			subtitle: "Não sabe como consertar algo? Chame de recurso."
+			description: ["Item Vaults são uma ótima maneira de armazenar a maior parte de seus itens. \\nVocê pode até mesmo interagir com o conteúdo manualmente por meio de uma estação de criação do Tinkers."]
+			id: "48D73F3A6C8C0203"
+			tasks: [
+				{
+					id: "078DD2C7D6303FD7"
+					type: "item"
+					item: "create:item_vault"
+				}
+				{
+					id: "6D69399EBF8FBC41"
+					type: "item"
+					title: "Any Crafting Station"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:workbenches"
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]
